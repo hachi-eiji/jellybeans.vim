@@ -511,10 +511,10 @@ hi! link rubyModule rubyClass
 call s:X("rubyControl","7597c6","","","Blue","")
 
 hi! link rubyString String
-hi! link rubyStringDelimiter StringDelimiter
+call s:X("rubyStringDelimiter","ffffff","","","White","")
 hi! link rubyInterpolationDelimiter Identifier
 
-hi! link rubyRegexpDelimiter  StringDelimiter
+hi! link rubyRegexpDelimiter rubyStringDelimiter 
 hi! link rubyRegexp String 
 hi! link rubyRegexpSpecial String 
 
